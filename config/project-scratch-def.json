@@ -1,13 +1,40 @@
 {
-  "orgName": "acrosman company",
+  "orgName": "Nonprofit Cloud Example",
   "edition": "Developer",
-  "features": ["EnableSetPasswordInApi"],
+  "features": [
+    "AccountingSubledgerGrowthEdition",
+    "IndustriesActionPlan",
+    "AnalyticsQueryService",
+    "PublicSectorAccess",
+    "Fundraising",
+    "Grantmaking",
+    "IndustriesSalesExcellenceAddOn",
+    "IndustriesServiceExcellenceAddOn",
+    "MarketingUser",
+    "ProgramManagement",
+    "OmniStudioDesigner",
+    "OmniStudioRuntime",
+    "EnableSetPasswordInApi",
+    "PersonAccounts"
+  ],
   "settings": {
     "lightningExperienceSettings": {
       "enableS1DesktopEnabled": true
     },
     "mobileSettings": {
       "enableS1EncryptedStoragePref2": false
+    },
+    "chatterSettings": {
+      "enableChatter": true
+    },
+    "apexSettings": {
+      "enableDisableParallelApexTesting": true
+    },
+    "enhancedNotesSettings": {
+      "enableEnhancedNotes": true
+    },
+    "IndustriesSettings": {
+      "enableGrantmaking": true
     }
   }
 }
