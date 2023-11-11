@@ -46,3 +46,5 @@ $RECYCLE.BIN/
 
 .vscode
 .atom
+
+package-lock.json
