@@ -1,0 +1,43 @@
+{
+  "orgName": "Edu Cloud Example",
+  "edition": "Developer",
+  "features": [
+    "EducationCloud:10",
+    "Assessments",
+    "Fundraising",
+    "AccountingSubledgerGrowthEdition",
+    "IndustriesActionPlan",
+    "AnalyticsQueryService",
+    "PublicSectorAccess",
+    "IndustriesSalesExcellenceAddOn",
+    "IndustriesServiceExcellenceAddOn",
+    "LightningScheduler",
+    "LightningServiceConsole",
+    "MarketingUser",
+    "OmniStudioDesigner",
+    "OmniStudioRuntime",
+    "EnableSetPasswordInApi",
+    "PersonAccounts"
+  ],
+  "settings": {
+    "lightningExperienceSettings": {
+      "enableS1DesktopEnabled": true
+    },
+    "mobileSettings": {
+      "enableS1EncryptedStoragePref2": false
+    },
+    "chatterSettings": {
+      "enableChatter": true
+    },
+    "apexSettings": {
+      "enableDisableParallelApexTesting": true
+    },
+    "enhancedNotesSettings": {
+      "enableEnhancedNotes": true
+    },
+    "industriesSettings": {
+      "enableIndustriesAssessment": true,
+      "enableDiscoveryFrameworkMetadata": true
+    }
+  }
+}
