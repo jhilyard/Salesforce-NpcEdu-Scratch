@@ -1,6 +1,7 @@
 {
   "orgName": "Nonprofit Cloud Example",
   "edition": "Developer",
+  "description": "Example settings for creating an Nonprofit Cloud scratch org. Customize features and permissions as needed for your project.",
   "features": [
     "AccountingSubledgerGrowthEdition",
     "IndustriesActionPlan",
