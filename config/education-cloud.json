@@ -37,7 +37,14 @@
     },
     "industriesSettings": {
       "enableIndustriesAssessment": true,
-      "enableDiscoveryFrameworkMetadata": true
+      "enableDiscoveryFrameworkMetadata": true,
+      "enableEducationCloud": true,
+      "enableStudentSuccess": true,
+      "enableAcademicOperations": true,
+      "enableAlumniRelations": true,
+      "enableCarePlansPreference": true,
+      "enableBenefitManagementPreference": true,
+      "enableBenefitAndGoalSharingPref": true
     }
   }
 }

@@ -34,7 +34,10 @@
       "enableEnhancedNotes": true
     },
     "IndustriesSettings": {
-      "enableGrantmaking": true
+      "enableGrantmaking": true,
+      "enableCompliantDataSharingForFundingAward": false,
+      "enableCompliantDataSharingForBudget": false,
+      "enableCompliantDataSharingForIndividualApplication": false
     }
   }
 }
