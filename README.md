@@ -33,7 +33,8 @@ For details see: `config/education-cloud.json`
 
 Features List:
 
-````"features": [
+```
+"features": [
     "EducationCloud:10",
     "Assessments",
     "Fundraising",
@@ -50,5 +51,5 @@ Features List:
     "OmniStudioRuntime",
     "EnableSetPasswordInApi",
     "PersonAccounts"
-  ],```
-````
+  ],
+```
