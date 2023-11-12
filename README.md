@@ -39,6 +39,9 @@ The following specific industry settings are included.
 - `enableCompliantDataSharingForFundingAward`: false – Sharing features are left in their default disabled state, but listed to make it easy to enable them.
 - `enableCompliantDataSharingForBudget`: false,
 - `enableCompliantDataSharingForIndividualApplication`: false
+- `enableBenefitManagementPreference`: true,
+- `enableBenefitAndGoalSharingPref`: true,
+- `enableCarePlansPreference`: true
 
 ## Education Cloud
 

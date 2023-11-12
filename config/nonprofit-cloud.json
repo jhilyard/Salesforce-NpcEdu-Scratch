@@ -4,6 +4,7 @@
   "description": "Example settings for creating an Nonprofit Cloud scratch org. Customize features and permissions as needed for your project.",
   "features": [
     "AccountingSubledgerGrowthEdition",
+    "AccountingSubledgerUser",
     "IndustriesActionPlan",
     "AnalyticsQueryService",
     "PublicSectorAccess",
@@ -38,7 +39,10 @@
       "enableGrantmaking": true,
       "enableCompliantDataSharingForFundingAward": false,
       "enableCompliantDataSharingForBudget": false,
-      "enableCompliantDataSharingForIndividualApplication": false
+      "enableCompliantDataSharingForIndividualApplication": false,
+      "enableBenefitManagementPreference": true,
+      "enableBenefitAndGoalSharingPref": true,
+      "enableCarePlansPreference": true
     }
   }
 }
