@@ -4,6 +4,8 @@ There is a shortage of public directions for how to setup Nonprofit Cloud and Ed
 
 ## Nonprofit Cloud
 
+For details see: `config/nonprofit-cloud.json`
+
 Features List:
 
 ```
@@ -26,6 +28,8 @@ Features List:
 ```
 
 ## Education Cloud
+
+For details see: `config/education-cloud.json`
 
 Features List:
 
