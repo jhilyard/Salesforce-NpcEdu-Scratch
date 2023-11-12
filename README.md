@@ -4,7 +4,7 @@ There is a shortage of public directions for how to setup Nonprofit Cloud and Ed
 
 ## Nonprofit Cloud
 
-Features needed:
+Features List:
 
 ```
   "features": [
@@ -26,3 +26,25 @@ Features needed:
 ```
 
 ## Education Cloud
+
+Features List:
+
+````"features": [
+    "EducationCloud:10",
+    "Assessments",
+    "Fundraising",
+    "AccountingSubledgerGrowthEdition",
+    "IndustriesActionPlan",
+    "AnalyticsQueryService",
+    "PublicSectorAccess",
+    "IndustriesSalesExcellenceAddOn",
+    "IndustriesServiceExcellenceAddOn",
+    "LightningScheduler",
+    "LightningServiceConsole",
+    "MarketingUser",
+    "OmniStudioDesigner",
+    "OmniStudioRuntime",
+    "EnableSetPasswordInApi",
+    "PersonAccounts"
+  ],```
+````
