@@ -1,6 +1,7 @@
 {
   "orgName": "Edu Cloud Example",
   "edition": "Developer",
+  "description": "Example settings for creating an Education Cloud scratch org. Customize features and permissions as needed for your project.",
   "features": [
     "EducationCloud:10",
     "Assessments",
@@ -45,6 +46,36 @@
       "enableCarePlansPreference": true,
       "enableBenefitManagementPreference": true,
       "enableBenefitAndGoalSharingPref": true
+    },
+    "objectSettings": {
+      "AssessmentQuestion": {
+        "sharingModel": "Public Read Only",
+        "defaultRecordType": "default"
+      },
+      "BenefitType": {
+        "sharingModel": "Public Read Only",
+        "defaultRecordType": "default"
+      },
+      "Program": {
+        "sharingModel": "Public Read Only",
+        "defaultRecordType": "default"
+      },
+      "ProgramEnrollment": {
+        "sharingModel": "Public Read Only",
+        "defaultRecordType": "default"
+      },
+      "ServiceResource": {
+        "sharingModel": "Public Read Only",
+        "defaultRecordType": "default"
+      },
+      "SuccessTeam": {
+        "sharingModel": "Public Read Only",
+        "defaultRecordType": "default"
+      },
+      "UnitOfMeasure": {
+        "sharingModel": "Public Read Only",
+        "defaultRecordType": "default"
+      }
     }
   }
 }
