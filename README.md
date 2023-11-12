@@ -14,14 +14,14 @@ Setup Command:
 
 For details see: `config/nonprofit-cloud.json`
 
-Features List:
+### Features List:
 
-- `AccountingSubledgerGrowthEdition`
+- `AccountingSubledgerGrowthEdition` Subledger is included in this sample. You can remove this from the feature list if you aren't using it for your project.
 - `IndustriesActionPlan`
 - `AnalyticsQueryService`
 - `PublicSectorAccess`
 - `Fundraising`
-- `Grantmaking`
+- `Grantmaking` I've included fundraising and grant making. You can remove one if you aren't using it. Please not that Grant making also includes some industry settings that may need to be disabled if this is removed.
 - `IndustriesSalesExcellenceAddOn`
 - `IndustriesServiceExcellenceAddOn`
 - `MarketingUser`
@@ -30,6 +30,15 @@ Features List:
 - `OmniStudioRuntime`
 - `EnableSetPasswordInApi`
 - `PersonAccounts`
+
+### Industry Settings
+
+The following specific industry settings are included.
+
+- `enableGrantmaking`: true – Grantmaking enabled
+- `enableCompliantDataSharingForFundingAward`: false – Sharing features are left in their default disabled state, but listed to make it easy to enable them.
+- `enableCompliantDataSharingForBudget`: false,
+- `enableCompliantDataSharingForIndividualApplication`: false
 
 ## Education Cloud
 
@@ -41,7 +50,7 @@ For Education Cloud the Salesforce help documentation notes that you need to com
 
 For details see: `config/education-cloud.json`
 
-Features List:
+### Features List:
 
 - `EducationCloud:10` Note that this includes a quantity parameter. I'm unclear why it's needed in this context but appears to be required.
 - `Assessments`
@@ -59,3 +68,15 @@ Features List:
 - `OmniStudioRuntime`
 - `EnableSetPasswordInApi`
 - `PersonAccounts`
+
+### Industry Settings:
+
+- `enableIndustriesAssessment:`: true
+- `enableDiscoveryFrameworkMetadata`: true
+- `enableEducationCloud`: true
+- `enableStudentSuccess`: true
+- `enableAcademicOperations`: true
+- `enableAlumniRelations`: true
+- `enableCarePlansPreference`: true
+- `enableBenefitManagementPreference`: true
+- `enableBenefitAndGoalSharingPref`: true
