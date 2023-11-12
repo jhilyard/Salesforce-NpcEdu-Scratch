@@ -16,24 +16,20 @@ For details see: `config/nonprofit-cloud.json`
 
 Features List:
 
-```
-  "features": [
-    "AccountingSubledgerGrowthEdition",
-    "IndustriesActionPlan",
-    "AnalyticsQueryService",
-    "PublicSectorAccess",
-    "Fundraising",
-    "Grantmaking",
-    "IndustriesSalesExcellenceAddOn",
-    "IndustriesServiceExcellenceAddOn",
-    "MarketingUser",
-    "ProgramManagement",
-    "OmniStudioDesigner",
-    "OmniStudioRuntime",
-    "EnableSetPasswordInApi",
-    "PersonAccounts"
-  ],
-```
+- `AccountingSubledgerGrowthEdition`
+- `IndustriesActionPlan`
+- `AnalyticsQueryService`
+- `PublicSectorAccess`
+- `Fundraising`
+- `Grantmaking`
+- `IndustriesSalesExcellenceAddOn`
+- `IndustriesServiceExcellenceAddOn`
+- `MarketingUser`
+- `ProgramManagement`
+- `OmniStudioDesigner`
+- `OmniStudioRuntime`
+- `EnableSetPasswordInApi`
+- `PersonAccounts`
 
 ## Education Cloud
 
@@ -41,27 +37,25 @@ Setup Command:
 
 `sf org create scratch -d -f config/education-cloud.json -a edu-org`
 
+For Education Cloud the Salesforce help documentation notes that you need to complete the setup manually following the [Education Cloud setup guide](https://help.salesforce.com/s/articleView?id=sfdo.EC_Enable_Education_Cloud.htm&type=5). However, there are a number industry settings that can be pre-set in the configuration to enable and disable these features.
+
 For details see: `config/education-cloud.json`
 
 Features List:
 
-```
-"features": [
-    "EducationCloud:10",
-    "Assessments",
-    "Fundraising",
-    "AccountingSubledgerGrowthEdition",
-    "IndustriesActionPlan",
-    "AnalyticsQueryService",
-    "PublicSectorAccess",
-    "IndustriesSalesExcellenceAddOn",
-    "IndustriesServiceExcellenceAddOn",
-    "LightningScheduler",
-    "LightningServiceConsole",
-    "MarketingUser",
-    "OmniStudioDesigner",
-    "OmniStudioRuntime",
-    "EnableSetPasswordInApi",
-    "PersonAccounts"
-  ],
-```
+- `EducationCloud:10` Note that this includes a quantity parameter. I'm unclear why it's needed in this context but appears to be required.
+- `Assessments`
+- `Fundraising` I've included fundraising in this sample, because you can get Edu Cloud with it. If you aren't using Fundraising in the project you're testing you can remove this one.
+- `AccountingSubledgerGrowthEdition` I've included Subledger in this sample, because you can get Edu Cloud with it. If you aren't using Fundraising in the project you're testing you can remove this one.
+- `IndustriesActionPlan`
+- `AnalyticsQueryService`
+- `PublicSectorAccess`
+- `IndustriesSalesExcellenceAddOn`
+- `IndustriesServiceExcellenceAddOn`
+- `LightningScheduler`
+- `LightningServiceConsole`
+- `MarketingUser`
+- `OmniStudioDesigner`
+- `OmniStudioRuntime`
+- `EnableSetPasswordInApi`
+- `PersonAccounts`
