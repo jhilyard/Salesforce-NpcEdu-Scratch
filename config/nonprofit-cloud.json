@@ -37,8 +37,6 @@
     },
     "IndustriesSettings": {
       "enableGrantmaking": true,
-      "enableCompliantDataSharingForFundingAward": false,
-      "enableCompliantDataSharingForIndividualApplication": false,
       "enableBenefitManagementPreference": true,
       "enableBenefitAndGoalSharingPref": true,
       "enableCarePlansPreference": true
