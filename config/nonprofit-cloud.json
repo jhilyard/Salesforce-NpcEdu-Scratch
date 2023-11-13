@@ -5,11 +5,13 @@
   "features": [
     "AccountingSubledgerGrowthEdition",
     "AccountingSubledgerUser",
+    "Assessments",
     "IndustriesActionPlan",
     "AnalyticsQueryService",
     "PublicSectorAccess",
     "Fundraising",
     "Grantmaking",
+    "IndustriesActionPlan",
     "IndustriesSalesExcellenceAddOn",
     "IndustriesServiceExcellenceAddOn",
     "MarketingUser",
