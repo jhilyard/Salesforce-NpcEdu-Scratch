@@ -10,7 +10,7 @@ To make use of these configurations you'll need setup SF cli and a Salesforce de
 
 Setup Command:
 
-`sf org create scratch -d -f config/project-scratch-def.json -a npc-org`
+`sf org create scratch -d -f config/nonprofit-cloud.json -a npc-org`
 
 For details see: `config/nonprofit-cloud.json`
 
