@@ -35,13 +35,16 @@ For details see: `config/nonprofit-cloud.json`
 
 The following specific industry settings are included.
 
-- `enableGrantmaking`: true – Grantmaking enabled
-- `enableCompliantDataSharingForFundingAward`: false – Sharing features are left in their default disabled state, but listed to make it easy to enable them.
-- `enableCompliantDataSharingForBudget`: false,
-- `enableCompliantDataSharingForIndividualApplication`: false
-- `enableBenefitManagementPreference`: true,
-- `enableBenefitAndGoalSharingPref`: true,
+- `enableGrantmaking`: true – Grantmaking enablement switch
+- `enableBenefitManagementPreference`: true
+- `enableBenefitAndGoalSharingPref`: true
 - `enableCarePlansPreference`: true
+
+There are three more you can add, but require another feature: `IndustriesCompliantDataSharing`:
+
+- `enableCompliantDataSharingForFundingAward`
+- `enableCompliantDataSharingForBudget`
+- `enableCompliantDataSharingForIndividualApplication`
 
 ## Education Cloud
 
