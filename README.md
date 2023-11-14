@@ -20,6 +20,7 @@ For details see: `config/nonprofit-cloud.json`
 - `IndustriesActionPlan`
 - `AnalyticsQueryService`
 - `PublicSectorAccess`
+- `Assessments`
 - `Fundraising`
 - `Grantmaking` I've included fundraising and grant making. You can remove one if you aren't using it. Please not that Grant making also includes some industry settings that may need to be disabled if this is removed.
 - `IndustriesSalesExcellenceAddOn`
@@ -28,6 +29,7 @@ For details see: `config/nonprofit-cloud.json`
 - `ProgramManagement`
 - `OmniStudioDesigner`
 - `OmniStudioRuntime`
+- `OutcomesManagement`
 - `EnableSetPasswordInApi`
 - `PersonAccounts`
 
