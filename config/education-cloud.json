@@ -4,13 +4,13 @@
   "description": "Example settings for creating an Education Cloud scratch org. Customize features and permissions as needed for your project.",
   "features": [
     "EducationCloud:10",
-    "Assessments",
-    "Fundraising",
     "AccountingSubledgerGrowthEdition",
     "AccountingSubledgerUser",
-    "IndustriesActionPlan",
     "AnalyticsQueryService",
-    "PublicSectorAccess",
+    "Assessments",
+    "EnableSetPasswordInApi",
+    "Fundraising",
+    "IndustriesActionPlan",
     "IndustriesSalesExcellenceAddOn",
     "IndustriesServiceExcellenceAddOn",
     "LightningScheduler",
@@ -18,8 +18,8 @@
     "MarketingUser",
     "OmniStudioDesigner",
     "OmniStudioRuntime",
-    "EnableSetPasswordInApi",
-    "PersonAccounts"
+    "PersonAccounts",
+    "PublicSectorAccess"
   ],
   "settings": {
     "lightningExperienceSettings": {
