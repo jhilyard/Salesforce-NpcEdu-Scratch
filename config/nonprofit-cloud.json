@@ -5,21 +5,22 @@
   "features": [
     "AccountingSubledgerGrowthEdition",
     "AccountingSubledgerUser",
-    "Assessments",
-    "IndustriesActionPlan",
     "AnalyticsQueryService",
-    "PublicSectorAccess",
+    "Assessments",
+    "EnableSetPasswordInApi",
     "Fundraising",
     "Grantmaking",
+    "IndustriesActionPlan",
     "IndustriesActionPlan",
     "IndustriesSalesExcellenceAddOn",
     "IndustriesServiceExcellenceAddOn",
     "MarketingUser",
-    "ProgramManagement",
     "OmniStudioDesigner",
     "OmniStudioRuntime",
-    "EnableSetPasswordInApi",
-    "PersonAccounts"
+    "OutcomeManagement",
+    "PersonAccounts",
+    "ProgramManagement",
+    "PublicSectorAccess"
   ],
   "settings": {
     "lightningExperienceSettings": {
@@ -38,10 +39,11 @@
       "enableEnhancedNotes": true
     },
     "IndustriesSettings": {
-      "enableGrantmaking": true,
       "enableBenefitManagementPreference": true,
       "enableBenefitAndGoalSharingPref": true,
-      "enableCarePlansPreference": true
+      "enableCarePlansPreference": true,
+      "enableGrantmaking": true,
+      "enableOutcomes": true
     }
   }
 }
