@@ -49,31 +49,31 @@
       "enableBenefitAndGoalSharingPref": true
     },
     "objectSettings": {
-      "AssessmentQuestion": {
+      "assessmentQuestion": {
         "sharingModel": "Public Read Only",
         "defaultRecordType": "default"
       },
-      "BenefitType": {
+      "benefitType": {
         "sharingModel": "Public Read Only",
         "defaultRecordType": "default"
       },
-      "Program": {
+      "program": {
         "sharingModel": "Public Read Only",
         "defaultRecordType": "default"
       },
-      "ProgramEnrollment": {
+      "programEnrollment": {
         "sharingModel": "Public Read Only",
         "defaultRecordType": "default"
       },
-      "ServiceResource": {
+      "serviceResource": {
         "sharingModel": "Public Read Only",
         "defaultRecordType": "default"
       },
-      "SuccessTeam": {
+      "successTeam": {
         "sharingModel": "Public Read Only",
         "defaultRecordType": "default"
       },
-      "UnitOfMeasure": {
+      "unitOfMeasure": {
         "sharingModel": "Public Read Only",
         "defaultRecordType": "default"
       }
