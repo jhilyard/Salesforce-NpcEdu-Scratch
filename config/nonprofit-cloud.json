@@ -38,7 +38,7 @@
     "enhancedNotesSettings": {
       "enableEnhancedNotes": true
     },
-    "IndustriesSettings": {
+    "industriesSettings": {
       "enableBenefitManagementPreference": true,
       "enableBenefitAndGoalSharingPref": true,
       "enableCarePlansPreference": true,
