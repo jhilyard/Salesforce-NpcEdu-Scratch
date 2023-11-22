@@ -10,6 +10,10 @@ jobs:
   validate_npc:
     runs-on: ubuntu-latest
     steps:
+      # Checkout the code in the pull request
+      - name: "Checkout source code"
+        uses: actions/checkout@v3
+      # Create a scratch org
       - name: "Create scratch org"
         uses: forcedotcom/salesforcedx-actions@master
         with:
