@@ -13,19 +13,14 @@ jobs:
       # Checkout the code in the pull request
       - name: "Checkout source code"
         uses: actions/checkout@v3
-      # Store secret for dev hub
-      - name: "Populate auth file with DEVHUB_SFDX_URL secret"
+      # Load secret for dev hub
+      - name: "Populate auth file with SFDX_URL secret"
         shell: bash
-        run: |
-          echo ${{ secrets.DEVHUB_SFDX_URL }} > ./DEVHUB_SFDX_URL.txt
-          secretFileSize=$(wc -c "./DEVHUB_SFDX_URL.txt" | awk '{print $1}')
-          if [ $secretFileSize == 1 ]; then
-              echo "Missing DEVHUB_SFDX_URL secret. Is this workflow running on a fork? You need to setup required secrets.";
-              exit 1;
-          fi
-      # Authenticate dev hub
-      - name: "Authenticate Dev Hub"
-        run: sf org login sfdx-url -f ./DEVHUB_SFDX_URL.txt -a devhub -d
+        run: "echo ${{ secrets.DEVHUB_SFDX_URL}} > ./SFDX_URL_STORE.txt"
+      - name: "Authenticate against dev hub"
+        uses: forcedotcom/salesforcedx-actions@master
+        with:
+          args: "force:auth:sfdxurl:store --sfdxurlfile=./SFDX_URL_STORE.txt --setalias=devhub --setdefaultdevhubusername"
       # Create a scratch org
       - name: "Create scratch org"
         uses: forcedotcom/salesforcedx-actions@master
