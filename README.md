@@ -88,3 +88,13 @@ For details see: `config/education-cloud.json`
 - `enableCarePlansPreference`: true
 - `enableBenefitManagementPreference`: true
 - `enableBenefitAndGoalSharingPref`: true
+
+## Note for forks and secret setup
+
+If you create your own fork of this project and want the repo to successfully run the github actions you'll need to include the correct secret.
+
+1. On your local machine connect to the devhub you wish to use.
+2. Run `sf org display -u [your devhub alias] --verbose`
+3. Find the section labeled `Sfdx Auth Url`. You'll need that value as your secret.
+4. In your Github repo's settings, find Secrets and Variables, and open the subsection for Actions.
+5. Create a new repository secret called `DEVHUB_SFDX_URL`. Copy the secret value you found in step 3.
