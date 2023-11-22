@@ -25,7 +25,7 @@ jobs:
       - name: "Create scratch org"
         uses: forcedotcom/salesforcedx-actions@master
         with:
-          args: "org create scratch -d -f config/nonprofit-cloud.json -a npc-org"
+          args: "org create scratch -d -f config/nonprofit-cloud.json -a npc-org --duration-days 1"
 
   validate_edu:
     runs-on: ubuntu-latest
@@ -45,4 +45,4 @@ jobs:
       - name: "Create scratch org"
         uses: forcedotcom/salesforcedx-actions@master
         with:
-          args: "org create scratch -d -f config/education-cloud.json -a edu-org"
+          args: "org create scratch -d -f config/education-cloud.json -a edu-org --duration-days 1"
