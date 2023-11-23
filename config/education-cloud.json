@@ -47,36 +47,6 @@
       "enableCarePlansPreference": true,
       "enableBenefitManagementPreference": true,
       "enableBenefitAndGoalSharingPref": true
-    },
-    "objectSettings": {
-      "AssessmentQuestion": {
-        "sharingModel": "Public Read Only",
-        "defaultRecordType": "default"
-      },
-      "BenefitType": {
-        "sharingModel": "Public Read Only",
-        "defaultRecordType": "default"
-      },
-      "Program": {
-        "sharingModel": "Public Read Only",
-        "defaultRecordType": "default"
-      },
-      "ProgramEnrollment": {
-        "sharingModel": "Public Read Only",
-        "defaultRecordType": "default"
-      },
-      "ServiceResource": {
-        "sharingModel": "Public Read Only",
-        "defaultRecordType": "default"
-      },
-      "SuccessTeam": {
-        "sharingModel": "Public Read Only",
-        "defaultRecordType": "default"
-      },
-      "UnitOfMeasure": {
-        "sharingModel": "Public Read Only",
-        "defaultRecordType": "default"
-      }
     }
   }
 }
