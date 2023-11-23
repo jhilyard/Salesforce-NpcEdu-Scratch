@@ -1,0 +1,60 @@
+name: test run scratch
+
+# Definition when the workflow should run
+on:
+  # The workflow will run whenever an event happens on a pull request
+  pull_request:
+    types: [opened, synchronize]
+
+jobs:
+  validate_npc:
+    runs-on: ubuntu-latest
+    steps:
+      # Install Salesforce CLI
+      - name: "Install Salesforce CLI"
+        run: |
+          npm install @salesforce/cli --location=global
+          nodeInstallPath=$(npm config get prefix)
+          echo "$nodeInstallPath/bin" >> $GITHUB_PATH
+          sf --version
+      # Checkout the code in the pull request
+      - name: "Checkout source code"
+        uses: actions/checkout@v3
+      # Load secret for dev hub
+      - name: "Populate auth file with SFDX_URL secret"
+        shell: bash
+        run: "echo ${{ secrets.DEVHUB_SFDX_URL}} > ./SFDX_URL_STORE.txt"
+      - name: "Authenticate with dev hub"
+        run: sf org login sfdx-url -f ./SFDX_URL_STORE.txt -a devhub -d
+      # Create a scratch org
+      - name: "Create npc scratch org"
+        run: "sf org create scratch -d -f config/nonprofit-cloud.json -a npc-org --duration-days 1"
+      # Clean up the org again
+      - name: "Delete npc scratch org"
+        run: "sf org delete scratch --target-org npc-org --no-prompt"
+
+  validate_edu:
+    runs-on: ubuntu-latest
+    steps:
+      # Install Salesforce CLI
+      - name: "Install Salesforce CLI"
+        run: |
+          npm install @salesforce/cli --location=global
+          nodeInstallPath=$(npm config get prefix)
+          echo "$nodeInstallPath/bin" >> $GITHUB_PATH
+          sf --version
+      # Checkout the code in the pull request
+      - name: "Checkout source code"
+        uses: actions/checkout@v3
+      # Load secret for dev hub
+      - name: "Populate auth file with SFDX_URL secret"
+        shell: bash
+        run: "echo ${{ secrets.DEVHUB_SFDX_URL}} > ./SFDX_URL_STORE.txt"
+      - name: "Authenticate with dev hub"
+        run: sf org login sfdx-url -f ./SFDX_URL_STORE.txt -a devhub -d
+      # Create a scratch org
+      - name: "Create edu scratch org"
+        run: "sf org create scratch -d -f config/education-cloud.json -a edu-org --duration-days 1"
+      # Clean up the org again
+      - name: "Delete edu scratch org"
+        run: "sf org delete scratch --target-org edu-org --no-prompt"
