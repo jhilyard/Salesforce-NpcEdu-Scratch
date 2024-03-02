@@ -7,11 +7,14 @@
     "AccountingSubledgerUser",
     "AnalyticsQueryService",
     "Assessments",
+    "Communities",
     "EnableSetPasswordInApi",
     "Fundraising",
     "Grantmaking",
+    "DataProcessingEngine",
+    "DecisionTable",
     "IndustriesActionPlan",
-    "IndustriesActionPlan",
+    "DocumentChecklist",
     "IndustriesSalesExcellenceAddOn",
     "IndustriesServiceExcellenceAddOn",
     "MarketingUser",
@@ -21,7 +24,8 @@
     "OutcomeManagement",
     "PersonAccounts",
     "ProgramManagement",
-    "PublicSectorAccess"
+    "PublicSectorAccess",
+    "StateAndCountryPicklist"
   ],
   "settings": {
     "lightningExperienceSettings": {
@@ -45,6 +49,13 @@
       "enableCarePlansPreference": true,
       "enableGrantmaking": true,
       "enableOutcomes": true
+    },
+    "nameSettings": {
+      "enableMiddleName": true,
+      "enableNameSuffix": true
+    },
+    "InterestTaggingSettings": {
+      "enableInterestTagging": true
     }
   }
 }

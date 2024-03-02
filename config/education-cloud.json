@@ -8,7 +8,12 @@
     "AccountingSubledgerUser",
     "AnalyticsQueryService",
     "Assessments",
+    "Communities",
+    "DataProcessingEngine",
+    "DecisionTable",
+    "DocumentChecklist",
     "EnableSetPasswordInApi",
+    "FSCAlertFramework",
     "Fundraising",
     "IndustriesActionPlan",
     "IndustriesSalesExcellenceAddOn",
@@ -19,23 +24,37 @@
     "OmniStudioDesigner",
     "OmniStudioRuntime",
     "PersonAccounts",
-    "PublicSectorAccess"
+    "PublicSectorAccess",
+    "StateAndCountryPicklist"
   ],
   "settings": {
+    "accountSettings": {
+      "enableRelateContactToMultipleAccounts": true
+    },
+    "apexSettings": {
+      "enableDisableParallelApexTesting": true
+    },
+    "chatterSettings": {
+      "enableChatter": true
+    },
+    "communitiesSettings": {
+      "enableCommunityWorkspaces": true,
+      "enableNetworksEnabled": true
+    },
+    "DocumentChecklistSettings": {
+      "deleteDCIWithFiles": true
+    },
+    "enhancedNotesSettings": {
+      "enableEnhancedNotes": true
+    },
+    "ForecastingSettings" : {
+      "enableForecasts": true
+    },
     "lightningExperienceSettings": {
       "enableS1DesktopEnabled": true
     },
     "mobileSettings": {
       "enableS1EncryptedStoragePref2": false
-    },
-    "chatterSettings": {
-      "enableChatter": true
-    },
-    "apexSettings": {
-      "enableDisableParallelApexTesting": true
-    },
-    "enhancedNotesSettings": {
-      "enableEnhancedNotes": true
     },
     "industriesSettings": {
       "enableIndustriesAssessment": true,
@@ -46,7 +65,28 @@
       "enableAlumniRelations": true,
       "enableCarePlansPreference": true,
       "enableBenefitManagementPreference": true,
-      "enableBenefitAndGoalSharingPref": true
+      "enableBenefitAndGoalSharingPref": true,
+      "enableInteractionSummaryPref": true,
+      "enableInteractionSummaryRoleHierarchy": true
+    },
+    "InterestTaggingSettings": {
+      "enableInterestTagging": true
+    },
+    "nameSettings": {
+      "enableMiddleName": true,
+      "enableNameSuffix": true
+    },
+    "OpportunitySettings": {
+      "enableOpportunityTeam": true
+    },
+    "productSettings": {
+      "enableRevenueSchedule": true
+    },
+    "userManagementSettings": {
+      "enableEnhancedPermsetMgmt": true,
+      "enableEnhancedProfileMgmt": true,
+      "enableNewProfileUI": true,
+      "permsetsInFieldCreation": true 
     }
   }
 }

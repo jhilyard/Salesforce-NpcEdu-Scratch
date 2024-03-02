@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<IndustriesSettings xmlns="http://soap.sforce.com/2006/04/metadata">
+    <enableActionableList>true</enableActionableList>
+    <enableBenefitAndGoalSharingPref>true</enableBenefitAndGoalSharingPref>
+    <enableBenefitManagementPreference>true</enableBenefitManagementPreference>
+    <enableCarePlansPreference>true</enableCarePlansPreference>
+    <enableDiscoveryFrameworkMetadata>true</enableDiscoveryFrameworkMetadata>
+    <enableEducationCloud>true</enableEducationCloud>
+    <enableIndustriesAssessment>true</enableIndustriesAssessment>
+    <enableInteractionSummaryPref>true</enableInteractionSummaryPref>
+    <enableInteractionSummaryRoleHierarchy>true</enableInteractionSummaryRoleHierarchy>
+    <enableTimelinePref>true</enableTimelinePref>
+    <enableStudentSuccess>true</enableStudentSuccess>
+    <enableAcademicOperations>true</enableAcademicOperations>
+    <enableAlumniRelations>true</enableAlumniRelations>
+    <enableMentoring>true</enableMentoring>
+</IndustriesSettings>
